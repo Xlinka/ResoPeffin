@@ -35,7 +35,7 @@ internal class PicoMouthDevice : IInputDriver
         mouth.Jaw = new float3
         (
             PicoExpressionData[PicoBlendShapeWeight.JawLeft] - PicoExpressionData[PicoBlendShapeWeight.JawRight],
-            0f,
+            -Ape(), // This feels dirty but it should work
             PicoExpressionData[PicoBlendShapeWeight.JawForward]
         );
         mouth.JawOpen = PicoExpressionData[PicoBlendShapeWeight.JawOpen];
@@ -67,9 +67,8 @@ internal class PicoMouthDevice : IInputDriver
         mouth.CheekRightPuffSuck = PicoExpressionData[PicoBlendShapeWeight.CheekPuff];
     }
 
-    // So we can't set Ape directly. How to influence mouth.Jaw?
-    private float Ape(float jawOpen, float mouthClose)
+    private float Ape()
     {
-        return (0.05f + jawOpen) * (0.05f + mouthClose) * (0.05f + mouthClose);
+        return (0.05f + PicoExpressionData[PicoBlendShapeWeight.JawOpen]) * (0.05f + PicoExpressionData[PicoBlendShapeWeight.MouthClose]) * (0.05f + [PicoBlendShapeWeight.MouthClose]);
     }
 }
