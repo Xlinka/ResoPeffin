@@ -1,6 +1,6 @@
 # Peffin
 
-Introducing Peffin: The [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod that sounds like "Puffin", except it doesn't fly and instead adds "Pico Eye/full Face Integration" for [Neos VR](https://neos.com/).
+Introducing P.E.F.F.I.N: The [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod that sounds like "Puffin", except it doesn't fly and instead adds a "Pico Eye and full Face Integration for [Neos VR](https://neos.com/)". Read more [here]((https://www.picoxr.com/global/products/pico4).
 
 ## Installation
 1. Install [NeosModLoader](https://github.com/zkxs/NeosModLoader).
