@@ -1,8 +1,8 @@
-# ModNameGoesHere
+# Peffin
 
-A [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod for [Neos VR](https://neos.com/) that does x.
+Introducing Peffin: The [NeosModLoader](https://github.com/zkxs/NeosModLoader) mod that sounds like "Puffin", except it doesn't fly and instead adds "Pico Eye/full Face Integration" for [Neos VR](https://neos.com/).
 
 ## Installation
 1. Install [NeosModLoader](https://github.com/zkxs/NeosModLoader).
-1. Place [ModNameGoesHere.dll](https://github.com/GithubUsername/RepoName/releases/latest/download/ModNameGoesHere.dll) into your `nml_mods` folder. This folder should be at `C:\Program Files (x86)\Steam\steamapps\common\NeosVR\nml_mods` for a default install. You can create it if it's missing, or if you launch the game once with NeosModLoader installed it will create the folder for you.
+1. Place [Peffin.dll](https://github.com/dfgHiatus/Peffin/releases/latest) into your `nml_mods` folder. This folder should be at `C:\Program Files (x86)\Steam\steamapps\common\NeosVR\nml_mods` for a default install. You can create it if it's missing, or if you launch the game once with NeosModLoader installed it will create the folder for you.
 1. Start the game. If you want to verify that the mod is working you can check your Neos logs.
