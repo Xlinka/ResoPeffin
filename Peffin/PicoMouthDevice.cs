@@ -69,6 +69,8 @@ internal class PicoMouthDevice : IInputDriver
 
     private float Ape()
     {
-        return (0.05f + PicoExpressionData[PicoBlendShapeWeight.JawOpen]) * (0.05f + PicoExpressionData[PicoBlendShapeWeight.MouthClose]) * (0.05f + [PicoBlendShapeWeight.MouthClose]);
+        return (0.05f + PicoExpressionData[PicoBlendShapeWeight.JawOpen]) * 
+               (0.05f + PicoExpressionData[PicoBlendShapeWeight.MouthClose]) * 
+               (0.05f + PicoExpressionData[PicoBlendShapeWeight.MouthClose]);
     }
 }
