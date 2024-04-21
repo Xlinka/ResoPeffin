@@ -1,14 +1,14 @@
 ﻿using FrooxEngine;
-using NeosModLoader;
+using ResoniteModLoader;
 
 namespace Peffin;
 
-public class Peffin : NeosMod
+public class Peffin : ResoniteMod
 {
     public override string Name => "Peffin";
-    public override string Author => "dfgHiatus";
+    public override string Author => "xLinka";
     public override string Version => "1.0.0";
-    public override string Link => "https://github.com/dfgHiatus/Peffin";
+    public override string Link => "https://github.com/xLinka/ResoPeffin";
 
     private PicoDevice picoDevice;
 
